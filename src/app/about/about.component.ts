@@ -3,7 +3,7 @@ import { Leaders } from '../shared/sdk/models';
 import { LeadersApi } from '../shared/sdk/services';
 import { flyInOut, expand } from '../animations/app.animation';
 import { LoopBackConfig } from '../shared/sdk/';
-import { API_VERSION } from '../shared/baseUrl';
+import { API_VERSION } from '../shared/baseurl';
 
 @Component({
   selector: 'app-about',

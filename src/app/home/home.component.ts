@@ -1,7 +1,7 @@
 
 import { Component, OnInit, Inject } from '@angular/core';
 import { LoopBackConfig } from '../shared/sdk/';
-import { API_VERSION } from '../shared/baseUrl';
+import { API_VERSION } from '../shared/baseurl';
 import { Dishes } from '../shared/sdk/models';
 import { DishesApi } from '../shared/sdk/services';
 import { Promotions } from '../shared/sdk/models';
